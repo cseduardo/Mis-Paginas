@@ -13,7 +13,7 @@ namespace Mis_Paginas
         {
             InitializeComponent();
 
-            MainPage = new Mis_Paginas.MainPage();
+            MainPage = new Mis_Paginas.Pages.Principal();
         }
 
         protected override void OnStart()

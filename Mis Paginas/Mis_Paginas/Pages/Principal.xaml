@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mis_Paginas.Pages.Principal"
+             BackgroundColor="#0B243B"
+             Padding="20">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Button x:Name="misdatos" Text="Mis Datos" Clicked="misdatos_Clicked" BorderColor="BlueViolet" BorderRadius="20" BackgroundColor="White"></Button>
+            <Button x:Name="ingresarDatos" Text="Ingresar Datos" Clicked="ingresarDatos_Clicked" BorderColor="BlueViolet" BorderRadius="20" BackgroundColor="White"></Button>
+            <Button x:Name="calculadora" Text="Calculadora" Clicked="calculadora_Clicked" BorderColor="BlueViolet" BorderRadius="20" BackgroundColor="White"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

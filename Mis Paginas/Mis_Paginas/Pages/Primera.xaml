@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mis_Paginas.Pages.Primera"
+             Padding="20">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Label Text="Jose Eduardo Campos Sanchez 12090073" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"
+           TextColor="Chocolate"
+           FontSize="Medium"/>
+        <Button x:Name="principal" Text="Pagina Principal" Clicked="principal_Clicked" BorderColor="BlueViolet"></Button>
+    </StackLayout>
+    
+</ContentPage>
